@@ -70,6 +70,6 @@ jobs:
           app-name: 'Az-Com-Infr-Funktionsapplikation-1'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5D08C0AF23C74548A3F017BDAE4A9EE1 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5908B74D3BE9465AA5293944A082EE8A }}
           sku: 'flexconsumption'
         
